@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/acceuilstyle.css" />
+    <link rel="stylesheet" href="css_files/acceuillstyle.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
@@ -15,38 +15,46 @@
 
   <body>
     <header>
-      <nav>
-        <i class="fa-notdog fa-solid fa-droplet"></i>
-        <span class="logo">Plomb'Express</span>
-        <ul>
-          <li><a href="acceuill.html">acceuil</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">À Propos</a></li>
-          <li><a href="">contact</a></li>
-        </ul>
-        <button><a href="">Demander un devis</a></button>
-      </nav>
-    </header>
-
-    <div class="herosection">
-      <div class="presentation">
-        <div>
-          <i class="fa-solid fa-location-dot"></i>
-          <h4>Votre artisan à Lyon et alentours</h4>
+      <nav class="navigation">
+        <div class="logo">
+          <i class="fa-notdog fa-solid fa-droplet"></i>
+          <span>Plomb'Express</span>
         </div>
 
         <div>
-          <h2>Un plombier de confiance près de chez vous</h2>
+          <ul>
+            <a href="acceuill.html">acceuil</a>
+            <a href="">Service</a>
+            <a href="">À Propos</a>
+            <a href="">contact</a>
+          </ul>
+        </div>
 
-          <p>
-            Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,
-            installation ou fuite : nos artisans vous accompagnent avec
-            réactivité, transparence et un travail soigné.
-          </p>
+        <a href="">Demander un devis</a>
+      </nav>
+    </header>
+
+    <section class="herosection">
+      <div class="presentation">
+        <div>
+          <div class="intervention">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Votre artisan à Lyon et alentours</h4>
+          </div>
 
           <div>
-            <button><a href="">Demander un devis</a></button>
-            <button><a href="">Nos Service</a></button>
+            <h2>Un plombier de confiance près de chez vous</h2>
+
+            <p>
+              Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,
+              installation ou fuite : nos artisans vous accompagnent avec
+              réactivité, transparence et un travail soigné.
+            </p>
+
+            <div class="herobutton">
+              <a href="">Demander un devis </a>
+              <a href="">Nos Service</a>
+            </div>
           </div>
         </div>
 
@@ -54,27 +62,27 @@
           <img src="Images/Plomb.jpg" alt="artisan" />
         </div>
       </div>
-    </div>
-    <div>
-      <div>
-        <i class="fa-regular fa-clock"></i>
-        <h4>Intervention rapide 7j/7</h4>
-      </div>
+      <div class="engagements">
+        <div>
+          <i class="fa-regular fa-clock"></i>
+          <h4>Intervention rapide 7j/7</h4>
+        </div>
 
-      <div>
-        <i class="fa-solid fa-shield-halved"></i>
-        <h4>Travail garanti</h4>
-      </div>
+        <div>
+          <i class="fa-solid fa-shield-halved"></i>
+          <h4>Travail garanti</h4>
+        </div>
 
-      <div>
-        <i class="fa-regular fa-circle-check"></i>
-        <h4>Professionnels qualifiés</h4>
+        <div>
+          <i class="fa-regular fa-circle-check"></i>
+          <h4>Professionnels qualifiés</h4>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="servicesection">
-      <div>
-        <h4>NOS SAVOIR-FAIRE</h4>
+    <section class="servicesection">
+      <div class="srvpresentation">
+        <h5>NOS SAVOIR-FAIRE</h4>
         <h2>Des solutions pour tous vos besoins</h2>
         <h4>De l’urgence au projet, le bon geste pour chaque situation.</h4>
       </div>
@@ -111,6 +119,134 @@
         </div>
       </div>
       <button><a href="">Voir tous nos services</a></button>
-    </div>
+    </section>
+
+    <section class="">
+      <div>
+        <img src="Images/robinet.jpg" alt="" />
+      </div>
+
+      <div class="">
+        <div>
+          <h4>POURQUOI NOUS CHOISIR ?</h4>
+          <h2>Un service fiable et de qualité</h2>
+          <p>
+            Votre tranquillité mérite un artisan engagé. Nous faisons de la
+            qualité et de la confiance nos priorités, à chaque intervention.
+          </p>
+        </div>
+
+        <div>
+          <div>
+            <div>
+              <i class="fa-regular fa-circle-check"></i>
+              <h3>Expertise</h3>
+              <p>
+                Des artisans qualifiés et expérimentés pour un diagnostic
+                précis.
+              </p>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-clipboard-list"></i>
+              <h3>Devis gratuit</h3>
+              <p>Un prix clair avant les travaux, sans mauvaise surprise.</p>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <i class="fa-solid fa-user-shield"></i>
+              <h3>Garantie</h3>
+              <p>
+                Des travaux garantis et des équipements sélectionnés pour durer.
+              </p>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-headset"></i>
+              <h3>Service client</h3>
+              <p>
+                Une équipe à votre écoute, du premier appel au suivi de votre
+                intervention.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="topfooter">
+        <div>
+          <div>
+            <i class="fa-notdog fa-solid fa-droplet"></i>
+            <span class="logo">Plomb’Express</span>
+          </div>
+          <p>
+            Votre partenaire plomberie pour un quotidien serein. Des artisans de
+            proximité, un travail soigné et des engagements tenus.
+          </p>
+        </div>
+
+        <div>
+          <article>liens utiles</article>
+          <ul>
+            <li><a href="acceuill.html">acceuil</a></li>
+            <li><a href=""> a propos]</a></li>
+            <li><a href="">service</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+
+          <div class="socialmedia">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+
+        <div>
+          <article>nos service</article>
+          <h4>Dépannage plomberie</h4>
+          <h4>Installation sanitaire</h4>
+          <h4>Réparation de fuites</h4>
+        </div>
+
+        <div>
+          <article>contacter nous</article>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+212500000000"> +212 (0)5 00 00 00 00</a>
+          </div>
+
+          <div>
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:helloclient@plombexpress.mail"
+              >helloclient@plombexpress.mail</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-solid fa-earth-africa"></i>
+            <p>12 rue des Artisans 69003 Lyon, France</p>
+          </div>
+
+          <div>
+            <h6>Coordonnées fictives — site de démonstration.</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottfooter">
+        <div>
+          <h6>© 2026 Plomb’Express. Tous droits réservés.</h6>
+        </div>
+
+        <div>
+          <h6>Mentions légales</h6>
+          <h6>Confidentialité</h6>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
