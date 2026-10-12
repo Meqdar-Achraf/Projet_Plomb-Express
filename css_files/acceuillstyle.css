@@ -278,7 +278,7 @@
   padding-inline: 64px;
   gap: 150px;
   height: 500px;
-  background-color: #F3F7FA;
+  background-color: #f3f7fa;
 
   .exigence {
     h4 {
@@ -313,17 +313,16 @@
   .avantages2 {
     display: flex;
     justify-content: space-between;
-
   }
 
-    p{
-      width: 308px;
-      font-size: 14px;
-      font-weight: 400;
-      color: #486176;
-    }
+  p {
+    width: 308px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #486176;
+  }
 
-  span{
+  span {
     font-size: 16px;
     font-weight: 700;
     color: #102a43;
@@ -340,18 +339,110 @@
   }
 }
 
-
-
-
-footer{
-  background-color: #486176;
+footer {
+  background-color: #102a43;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  .topfooter{
+  height: 120px;
+  padding: 48px;
+
+  .topfooter {
     display: flex;
     width: 90%;
     justify-content: space-between;
+
+    .flogo {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      i {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        color: aliceblue;
+        background-color: #0866c2;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      }
+
+      span {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 700;
+      }
+    }
+    .marque {
+      p {
+        display: flex;
+        align-items: center;
+        height: 69px;
+        width: 310px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #c2d0dd;
+      }
+
+      i {
+        color: #c2d0dd;
+        border-radius: 8px;
+      }
+    }
+
+    .footpage {
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: s;
+      }
+      a {
+        text-decoration: none;
+        color: #c2d0dd;
+      }
+    }
+
+    article {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      height: 20px;
+    }
+
+    .footservice {
+      h5 {
+        height: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #c2d0dd;
+      }
+    }
+
+    .footcontact {
+      i {
+        color: #c2d0dd;
+      }
+      a,
+      span {
+        text-decoration: none;
+        color: #c2d0dd;
+        font-size: 13px;
+        font-weight: 400;
+        height: 50px;
+      }
+    }
   }
 
+  .bottfooter {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    .Confidentialite {
+      display: flex;
+      gap: 20px;
+    }
+    color: #c2d0dd;
+    font-size: 13px;
+    font-weight: 200;
+  }
 }
