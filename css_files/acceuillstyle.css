@@ -583,6 +583,87 @@ footer {
   }
 }
 
+
+
+/* design de page contact */
+
+.contact-page_main{
+  padding: 5%;
+}
+
+.section_title--h2 {
+    color: #102a43;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1.2px;
+    line-height: 160%;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.contact-information{
+  margin-bottom: 30px;
+  p {
+    width: 90%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #486176;
+    margin-bottom: 15px;
+    line-height: 165%;
+    margin-bottom: 10%;
+  }
+
+  i{
+    color: #0866c2;
+  }
+  a, span{
+    text-decoration: none;
+    color: #102a43;
+    
+  }
+  div{
+    margin-bottom: 10px;
+  }
+
+}
+
+.contact-formulaire{
+  border-top: #486176 2px solid;
+  padding-top: 30px;
+  label{
+    color: #102a43;
+    font-weight: 700;
+  }
+  input{
+    border: 1px #486176 solid;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 25px;
+  }
+
+  button{
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #0866c2;
+    font-size: 18px;
+    font-weight: 700;
+    color: #c2d0dd;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
 @media (min-width: 750px) {
   .navigation {
     flex-direction: row;
@@ -878,4 +959,27 @@ footer {
       margin: 3% 0 3% 3%;
     }
   }
+
+  /* design de page contact */
+
+.contact-page_main{
+  display: flex;
+  justify-content: space-between;
+
 }
+
+
+.contact-information{
+  width: 45%;
+  border-right: 2px solid #486176;
+
+}
+
+.contact-formulaire{
+  border: none;
+  width: 45%;
+}
+
+}
+
+
