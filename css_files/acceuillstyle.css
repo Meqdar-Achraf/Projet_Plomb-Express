@@ -1,5 +1,3 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
@@ -30,6 +28,10 @@
     font-size: 18px;
     font-weight: 500;
     color: #102a43;
+  }
+  .navigation__barre {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -448,6 +450,139 @@ footer {
   }
 }
 
+/* design de page des service */
+
+.service-herosection__top,
+.contact-page__title {
+  padding: 3rem;
+  height: 5%;
+  background-color: #486176;
+  background-image: url("heroimg.png");
+
+  background-size: cover;
+  background-position: center;
+
+  h5 {
+    color: #0866c2;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  h1 {
+    color: #102a43;
+    font-size: 64px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+}
+
+.service-herosection__bott {
+  padding-left: 3rem;
+  padding: 1.5rem;
+  h2 {
+    color: #102a43;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1.2px;
+    line-height: 160%;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+  p {
+    width: 90%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #486176;
+    margin-bottom: 15px;
+    line-height: 165%;
+    margin-bottom: 10%;
+  }
+  a {
+    background-color: #ff6418;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+}
+
+.service-listsection {
+  padding: 5%;
+  .service-listsection__presentation {
+    width: 100%;
+    height: max-content;
+    h5 {
+      height: max-content;
+      color: #0866c2;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    h2 {
+      color: #102a43;
+      font-weight: 700;
+      font-size: 32px;
+      letter-spacing: -1.2px;
+      line-height: 160%;
+      width: 80%;
+      margin-bottom: 5px;
+    }
+    h4 {
+      width: 90%;
+      height: 60px;
+      color: #486176;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      margin-bottom: 15px;
+    }
+  }
+
+  .servicecard {
+    border: 1px #dce5ec solid;
+    border-radius: 16px;
+    margin-bottom: 5%;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      margin-bottom: 5%;
+    }
+    i {
+      margin-left: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 42px;
+      width: 42px;
+      background-color: #e7f1fb;
+      color: #0866c2;
+      border-radius: 10px;
+    }
+
+    h3 {
+      color: #102a43;
+      margin: 3% 0 3% 3%;
+    }
+
+    p {
+      width: 90%;
+      font-size: 14px;
+      font-weight: 400;
+      color: #486176;
+      line-height: 165%;
+      margin: 3% 0 3% 3%;
+    }
+  }
+}
+
 @media (min-width: 800px) {
   .navigation {
     flex-direction: row;
@@ -456,6 +591,11 @@ footer {
     height: 80px;
     width: 100%;
     padding: 0%;
+
+    .burgermenu {
+      display: none;
+    }
+
     ul {
       display: flex;
       justify-content: space-between;
@@ -662,18 +802,80 @@ footer {
         margin-bottom: 0%;
       }
 
-      .footservice{
+      .footservice {
         margin-bottom: 0%;
       }
-      .footcontact{
+      .footcontact {
         margin-top: 0%;
       }
-
     }
 
     .bottfooter {
       padding-top: 20px;
       margin-top: 1%;
+    }
+  }
+
+  /* design de page des service */
+
+  .service-herosection__bott {
+    p {
+      max-width: 70%;
+    }
+    a {
+      margin-top: -60px;
+      min-width: 30%;
+      max-width: 30%;
+    }
+  }
+
+  .service-listsection {
+    padding: 5%;
+  }
+  .card-list1,
+  .card-list2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .servicecard {
+    border: 1px #dce5ec solid;
+    border-radius: 16px;
+    margin-bottom: 5%;
+    max-width: 394px;
+    img {
+      width: 100%;
+      max-width: 394px;
+      max-height: 210px;
+      height: quto;
+      border-radius: 16px;
+      margin-bottom: 5%;
+    }
+    i {
+      margin-left: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 42px;
+      width: 42px;
+      background-color: #e7f1fb;
+      color: #0866c2;
+      border-radius: 10px;
+    }
+
+    h3 {
+      color: #102a43;
+      margin: 3% 0 3% 3%;
+    }
+
+    p {
+      width: 90%;
+      font-size: 14px;
+      font-weight: 400;
+      color: #486176;
+      line-height: 165%;
+      margin: 3% 0 3% 3%;
     }
   }
 }
